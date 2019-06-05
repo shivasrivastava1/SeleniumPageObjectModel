@@ -32,15 +32,17 @@ public class LoginPage extends TestBase {
 		
  	}
 	
-	
+	//display title
 	public String ValidatePageTitle()
 	{
 		return driver.getTitle();
+		 
 				
 	}
 	
 	public boolean ValidateCRMImage() {
 		return crmLogo.isDisplayed();
+		
 		
 	}
 	
